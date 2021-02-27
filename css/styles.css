@@ -3,6 +3,13 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --main-color: #212121;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --content-description: #757575;
+  --background: #f5f4fa;
+  --background-btn-hover: #188ce8;
+  --background-section: #2f303a;
+  --text-color-default: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -27,7 +34,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--black-color);
 }
 
 .part-logo {
@@ -35,7 +42,7 @@ body {
 }
 
 .logo-white {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .second-title {
@@ -67,7 +74,7 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--content-description);
 }
 
 .channel-link:hover,
@@ -90,12 +97,12 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #188ce8;
+  background: var(--background-btn-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -107,11 +114,11 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero {
-  background: #2f303a;
+  background: var(--background-section);
 }
 /* ========= END HERO =========*/
 
@@ -130,7 +137,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--content-description);
 }
 /* ========= END ADVANTAGES =========*/
 
@@ -139,7 +146,7 @@ body {
 
 /* ========= OUR TEAM =========*/
 .team {
-  background: #f5f4fa;
+  background: var(--background);
 }
 .third-title {
   font-weight: 500;
@@ -154,7 +161,7 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--content-description);
 }
 /* ========= END OUR TEAM =========*/
 
@@ -164,7 +171,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .contact-link-item {
@@ -172,11 +179,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-color-default);
 }
 
 .contact-information {
-  background-color: #2f303a;
+  background-color: var(--background-section);
 }
 /* ========= END CONTACT INFORMATION =========*/
 
@@ -191,13 +198,13 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  background: #f5f4fa;
+  background: var(--background);
 }
 
 .filter-works-btn:hover,
 .filter-works-btn:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 /* ========= END FILTER =========*/
 
@@ -215,6 +222,6 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--content-description);
 }
 /* ========= END OUR WORKS =========*/
